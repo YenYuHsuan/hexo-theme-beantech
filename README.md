@@ -3,17 +3,14 @@
 > This BeanTech theme modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
 
 # [Live Demo](http://beantech.org)
----
 ![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
 
 # Usage
----
 I didn't publish it as a single theme folder because a few of the pages are added and modified manually, so you should manually create some extra folders in `source` for the new pages and modify the `_config.yml` if you only have the single theme folder.
 
 So i just pushed the whole hexo project for your convenience, all pre settings and boilerplates are included, have a look and go ahead customizing your own blog!
 
 ## Init
----
 ```bash
 git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech
 cd hexo-beantech
@@ -21,7 +18,6 @@ npm install
 ```
 
 ## Modify
----
 Modify `_config.yml` file with your own info.
 Especially the section:
 ### Deployment
@@ -61,7 +57,6 @@ signature-img: img/signature/<your-signature-ID>
 My icon is using iron man, you can change to your own icon at `css/image`.
 
 ## Writting/ Server / Deploy
----
 Some hexo command:
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
@@ -70,6 +65,5 @@ hexo server # run hexo in local environment
 hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
 ```
 # Enjoy! 
----
 Please [**Star**](https://github.com/YenYuHsuan/hexo-theme-beantech/stargazers) this Project if you like it! [**Follow**](https://github.com/YenYuHsuan) would also be appreciated!
 Peace!
