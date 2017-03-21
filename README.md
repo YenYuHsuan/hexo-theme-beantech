@@ -1,6 +1,6 @@
 > Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
 > 
-> This BeanTech theme modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
+> This BeanTech theme created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
 
 # [Live Demo](http://beantech.org)
 ![BeanTech Desktop](./source/img/beantech-desktop.png)
