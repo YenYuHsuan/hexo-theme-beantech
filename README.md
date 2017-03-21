@@ -64,6 +64,6 @@ hexo clean && hexo generate # generate the static file
 hexo server # run hexo in local environment
 hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
 ```
-# Have fun
+# Have fun ^_^
 Please [**Star**](https://github.com/YenYuHsuan/hexo-theme-beantech/stargazers) this Project if you like it! [**Follow**](https://github.com/YenYuHsuan) would also be appreciated!
 Peace!
