@@ -56,7 +56,30 @@ signature-img: img/signature/<your-signature-ID>
 ### Go to top icon Setup
 My icon is using iron man, you can change to your own icon at `css/image`.
 
-## Writting/ Server / Deploy
+### Markdown render
+My markdown render engine plugin is [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
+```yml
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+```
+and if you want to change the header anchor 'ℬ', you can go to `layout/post.ejs` to change it.
+```javascript
+async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: ℬ // this is the header anchor "unicode" icon
+        };
+```
+## Hexo Basics
 Some hexo command:
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
