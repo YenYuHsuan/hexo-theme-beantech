@@ -3,14 +3,17 @@
 > This BeanTech theme created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
 
 # [Live Demo](http://beantech.org)
-![BeanTech Desktop](./source/img/beantech-desktop.png)
+---
+![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
 
 # Usage
-I didn't publish it as a single theme folder because a few of the pages are added and modified manually, so you should manually create some extra folders in `source` for the new pages and modify the `_config.yml` if you only have the single theme folder.
+---
+I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
 
-So i just pushed the whole hexo project for your convenience, all pre settings and boilerplates are included, have a look and go ahead customizing your own blog!
+Let's begin!!!
 
 ## Init
+---
 ```bash
 git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech
 cd hexo-beantech
@@ -18,6 +21,7 @@ npm install
 ```
 
 ## Modify
+---
 Modify `_config.yml` file with your own info.
 Especially the section:
 ### Deployment
@@ -79,7 +83,9 @@ async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
           icon: ℬ // this is the header anchor "unicode" icon
         };
 ```
+
 ## Hexo Basics
+---
 Some hexo command:
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
@@ -87,6 +93,12 @@ hexo clean && hexo generate # generate the static file
 hexo server # run hexo in local environment
 hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
 ```
-# Have fun ^_^
-Please [**Star**](https://github.com/YenYuHsuan/hexo-theme-beantech/stargazers) this Project if you like it! [**Follow**](https://github.com/YenYuHsuan) would also be appreciated!
+
+# Have fun ^_^ 
+---
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Place this tag where you want the button to render. -->
+
+Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub">Follow</a> would also be appreciated!
 Peace!
