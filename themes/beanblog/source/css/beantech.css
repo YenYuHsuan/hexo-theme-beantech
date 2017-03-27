@@ -127,6 +127,18 @@ img.shadow {
     background: white;
   }
 }
+select {
+    -webkit-appearance: none;
+    margin-top: 15px;
+    color: #337ab7;
+    border-color: #337ab7;
+    padding: 0 .4em;
+    background: #fff;
+}
+select.sel-lang {
+    min-height: 28px;
+    font-size: 14px;
+}
 .table th,
 .table td {
   border: 1px solid #eee !important;
@@ -213,6 +225,16 @@ pre code {
   line-height: 2;
   margin-top: 20px;
 }
+.post-container .tags a {
+  color: gray;
+  border-color: gray;
+}
+.post-container .tags a:hover,
+.post-container .tags a:active {
+  color: #0085a1;
+  border-color: #0085a1;
+}
+
 @media only screen and (max-width: 767px) {
   .navbar-default .navbar-collapse {
     border: none;
