@@ -17,10 +17,22 @@ layout: page
             <%- truncate(strip_html(post.content), {length: 200, omission: '...'}) %>...
         </div>
     </a>
-    <p class="post-meta">
-        Posted by <%- post.author || config.author %> on
-        <%= post.date.format(config.date_format) %>
-    </p>
+    <% if (config.home_posts_tag){%>
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by <%- post.author || config.author %> on
+            <%= post.date.format(config.date_format) %>
+        </p>
+        <div class="tags">
+            <% post.tags.forEach(function(tag){ %>
+              <a href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>"><%= tag.name %></a>
+            <% }) %>
+        </div>
+    <%} else {%>
+        <p class="post-meta">
+            Posted by <%- post.author || config.author %> on
+            <%= post.date.format(config.date_format) %>
+        </p>
+    <%}%>
 
 </div>
 <hr>
