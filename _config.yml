@@ -133,6 +133,7 @@ highlight:
 default_category: uncategorized
 category_map:
 tag_map:
+home_posts_tag: true # show posts tags
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
