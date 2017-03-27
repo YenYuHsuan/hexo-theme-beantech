@@ -3,17 +3,14 @@
 > This BeanTech theme created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
 
 # [Live Demo](http://beantech.org)
----
 ![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
 
 # Usage
----
 I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
 
 Let's begin!!!
 
 ## Init
----
 ```bash
 git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech
 cd hexo-beantech
@@ -21,7 +18,6 @@ npm install
 ```
 
 ## Modify
----
 Modify `_config.yml` file with your own info.
 Especially the section:
 ### Deployment
@@ -85,7 +81,6 @@ async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
 ```
 
 ## Hexo Basics
----
 Some hexo command:
 ```bash
 hexo new post "<post name>" # you can change post to another layout if you want
@@ -95,10 +90,6 @@ hexo deploy # hexo will push the static files automatically into the specific br
 ```
 
 # Have fun ^_^ 
----
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
 
-Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub">Follow</a> would also be appreciated!
+Please [Star](https://github.com/YenYuHsuan/hexo-theme-beantech) this Project if you like it! [Follow](https://github.com/YenYuHsuan) would also be appreciated!
 Peace!
