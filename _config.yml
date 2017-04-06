@@ -167,7 +167,7 @@ markdown:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: beanblog
+theme: beantech
 
 #sitemap
 sitemap:
