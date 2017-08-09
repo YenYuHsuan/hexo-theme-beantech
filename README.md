@@ -83,12 +83,14 @@ markdown:
 ```
 and if you want to change the header anchor 'ℬ', you can go to `layout/post.ejs` to change it.
 ```javascript
-async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+async("//cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'hover',
           placement: 'left',
-          icon: ℬ // this is the header anchor "unicode" icon
+          icon: 'ℬ'
         };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
 ```
 
 ## Hexo Basics
